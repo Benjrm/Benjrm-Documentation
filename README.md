@@ -59,3 +59,40 @@ The detailed sprint planning and backlog management process is managed in YouTra
 [YouTrack Agile Development Board](https://youtrack.mni.thm.de/projects/SERSOSE26G1/agiles/122-557/current)
 
 [YouTrack Project Managemmet Board](https://youtrack.mni.thm.de/projects/SERSOSE26G1/agiles/122-558/current)
+
+
+## Team Organization, Culture & Learnings
+
+This section documents how our team was organized over the course of the project, which tools we used, and the lessons learned we're taking away from the project. This is meant to make our workflow and how it evolved over the sprints understandable.
+
+### Team Organization
+
+| Role                 | Responsible                  |
+|----------------------|------------------------------|
+| Product Owner        | Everyone                     |
+| Scrum Master         | Mike                         |
+| Ticket Reviewer      | Erik, Noel                   |
+| Frontend Development | Everyone (mainly Mike, Erik) |
+| Backend Development  | Mainly Julian, Bela          |
+| CI/CD                | Mainly Noel, Robin           |
+
+In practice, everyone pitched in across different areas, but the rough division of work shaped up as described above: Noel and Robin mainly handled CI/CD, Julian and Bela the backend, and Mike and Erik the frontend, though everyone else also contributed regularly here as well.
+
+### Tools
+
+- **GitHub** – Version control
+- **Discord / WhatsApp** – Daily Scrums / team communication
+- **YouTrack** – Time tracking, tickets, sprint planning and management
+- **Google Docs / GitHub Wiki** – Documentation
+
+### Meeting Cadence
+
+In the beginning, we only met once a week. After the second sprint, it became clear that this didn't work for two-week deadlines, too much time passed between syncs, so problems only surfaced late. We then switched to meeting every 2–3 days, which worked considerably better.
+
+### Learnings
+
+- **One sprint meeting per week is not enough for two-week deadlines.** A cadence of at least every two days works much better, since problems get caught and fixed earlier.
+- **Shorter meeting intervals encourage productivity.** Instead of one big weekly goal, you constantly have smaller, clearly achievable goals in front of you, which makes motivation and progress more tangible.
+- **Feature-based branching is organizationally much better than technology-based branching.** At the start, we had two separate branches off main, one for frontend, one for backend. This made it hard to integrate changes from both sides with each other. A dedicated branch per feature, only merged into main once frontend and backend are integrated, turned out to be far more practical.
+- **Putting real effort into mockups saves time in code reviews.** When you put real care into the mockup, design is barely a discussion point in the review afterward.
+- **Estimating time for tasks is hard.** The estimated time for tickets often didn't match the actual effort required in practice, something we kept having to recalibrate across sprints.
