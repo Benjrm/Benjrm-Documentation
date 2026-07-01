@@ -37,8 +37,8 @@ Based on the above research and analysis, we have defined a set of user stories 
 ### Visual Design
 We are using Figma to design the visual component of the platform.
 This includes creating a mood board, user flows, mockups and prototypes.
-Figma serves as our central tool for collaboratively defining the user interface and overall user experience of the applicaation.
-The complete design wotk can be accessed here: [Figma Design Link](https://www.figma.com/design/C9VVUgbENsonybgmeKInTY/User-Interface?node-id=0-1&m=dev)
+Figma serves as our central tool for collaboratively defining the user interface and overall user experience of the application.
+The complete design work can be accessed here: [Figma Design Link](https://www.figma.com/design/C9VVUgbENsonybgmeKInTY/User-Interface?node-id=0-1&m=dev)
 
 ### Agile Development with Scrum
 
@@ -58,7 +58,7 @@ The detailed sprint planning and backlog management process is managed in YouTra
 
 [YouTrack Agile Development Board](https://youtrack.mni.thm.de/projects/SERSOSE26G1/agiles/122-557/current)
 
-[YouTrack Project Managemmet Board](https://youtrack.mni.thm.de/projects/SERSOSE26G1/agiles/122-558/current)
+[YouTrack Project Management Board](https://youtrack.mni.thm.de/projects/SERSOSE26G1/agiles/122-558/current)
 
 
 ## Team Organization, Culture & Learnings
