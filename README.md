@@ -78,13 +78,6 @@ This section documents how our team was organized over the course of the project
 
 In practice, everyone pitched in across different areas, but the rough division of work shaped up as described above: Noel and Robin mainly handled CI/CD, Julian and Bela the backend, and Mike and Erik the frontend, though everyone else also contributed regularly here as well.
 
-### Tools
-
-- **GitHub** – Version control
-- **Discord / WhatsApp** – Daily Scrums / team communication
-- **YouTrack** – Time tracking, tickets, sprint planning and management
-- **Google Docs / GitHub Wiki** – Documentation
-
 ### Meeting Cadence
 
 In the beginning, we only met once a week. After the second sprint, it became clear that this didn't work for two-week deadlines, too much time passed between syncs, so problems only surfaced late. We then switched to meeting every 2–3 days, which worked considerably better.
