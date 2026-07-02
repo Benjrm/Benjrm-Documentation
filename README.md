@@ -82,6 +82,8 @@ In practice, everyone pitched in across different areas, but the rough division 
 
 In the beginning, we only met once a week. After the second sprint, it became clear that this didn't work for two-week deadlines, too much time passed between syncs, so problems only surfaced late. We then switched to meeting every 2–3 days, which worked considerably better.
 
+Infrequent meetings also had a social side effect: some team members felt like they had contributed less than others, often due to external circumstances like a job or simply having time off during hot weather. More regular syncs helped distribute the feeling of shared progress more evenly.
+
 ### Learnings
 
 - **One sprint meeting per week is not enough for two-week deadlines.** A cadence of at least every two days works much better, since problems get caught and fixed earlier.
@@ -89,3 +91,13 @@ In the beginning, we only met once a week. After the second sprint, it became cl
 - **Feature-based branching is organizationally much better than technology-based branching.** At the start, we had two separate branches off main, one for frontend, one for backend. This made it hard to integrate changes from both sides with each other. A dedicated branch per feature, only merged into main once frontend and backend are integrated, turned out to be far more practical.
 - **Putting real effort into mockups saves time in code reviews.** When you put real care into the mockup, design is barely a discussion point in the review afterward.
 - **Estimating time for tasks is hard.** The estimated time for tickets often didn't match the actual effort required in practice, something we kept having to recalibrate across sprints.
+- **Define the project folder structure at the beginning.** Using a feature-based folder structure from the start avoids costly restructuring later in the project.
+- **Early architectural decisions matter more than individual implementation details.** Choices like WebSockets, the feature structure, or auth flows have long-term consequences. A wrong early decision can create a cascade of additional effort down the line.
+- **API tests took far too long.** Our schema-based API tests were started in Sprint 1 but only finished in Sprint 3. Test tooling and contract definitions need to be established early and kept lightweight.
+- **Real-time systems are significantly more complex than classic CRUD apps.** Our quiz logic with WebSockets, reconnect handling, and error responses was a completely different complexity class from a standard REST API. Don't underestimate this.
+- **Over-specifying interfaces before implementation is counterproductive.** It is more useful to have a rough feel for what a REST route returns than to precisely define every field upfront. Discussing the shape of something like `PlayerCommand` makes sense, but debating whether a field is called `answer` or `text` is wasted time.
+- **Gamification is a much bigger effort than it looks.** Points and timers are just the surface. Building something that actually feels fun and engaging requires substantial design and engineering work beyond what we initially anticipated.
+- **Code reviews are not just a quality gate, they are a learning tool.** Reviews help you understand what changed across the codebase, which can directly inform your own implementation work.
+- **Dependent PRs create painful merge conflicts.** When multiple incremental features each go through several review stages, the codebase shifts constantly. Every PR depending on another one accumulates conflicts that are tedious and time-consuming to resolve.
+- **A ticket is only done when every sub-task is complete.** Leaving small tasks like writing docs or adding tests until later can stall progress and distort the true state of the sprint.
+- **Large refactorings are expensive.** Especially when multiple PRs depend on each other, a refactor ripples through everything and multiplies the integration cost significantly.
