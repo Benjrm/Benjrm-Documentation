@@ -63,7 +63,7 @@ The detailed sprint planning and backlog management process is managed in YouTra
 
 ## Team Organization, Culture & Learnings
 
-This section documents how our team was organized over the course of the project, which tools we used, and the lessons learned we're taking away from the project. This is meant to make our workflow and how it evolved over the sprints understandable.
+This section documents how our team was organized over the course of the project and the lessons learned we're taking away from the project. This is meant to make our workflow and how it evolved over the sprints understandable.
 
 ### Team Organization
 
