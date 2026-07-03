@@ -18,11 +18,9 @@ To sign out, click "Sign Out" in the top-right corner of the application. You wi
 
 Clicking the user icon in the top-right corner opens a profile popup that provides account-related information and sensitive account actions. This menu is designed to give users visibility into how their account is managed, while also offering controlled access to account deletion.
 
-![Dashboard](./user-manual.assets/dashboard.png)
+![Profile Popup](./user-manual.assets/profile_popup.png)
 
 Some options in the profile popup may be disabled or hidden based on your organization's configuration. For example, if your organization has disabled the ability for users to change their username or password, those options will not be available in the profile popup. For more details contact your organization's system administrator.
-
-![Profile Popup](./user-manual.assets/profile_popup.png)
 
 ### Profile information
 
@@ -46,7 +44,7 @@ Upon successful deletion, you will be signed out of Benjrm and shown a popup con
 
 # Frontpage
 
-The Frontpage is the main entry point of Benjrm for all users. It is designed primarily for participants who want to join an active quiz session quickly and without additional navigation. At the center of the screen, is a input field for entering a game PIN. This PIN is provided by the host of the game, such as a teacher or quiz organizer, and uniquely identifies an active session.
+The Frontpage is the main entry point of Benjrm for all users. It is designed primarily for participants who want to join an active quiz session quickly and without additional navigation. At the center of the screen, is an input field for entering a game PIN. This PIN is provided by the host of the game, such as a teacher or quiz organizer, and uniquely identifies an active session.
 
 After entering a valid PIN, users are connected to the corresponding game lobby.
 
@@ -71,6 +69,8 @@ Benjrm provides a theme toggle that allows you to switch between available visua
 Auto mode follows the theme preference of your browser or operating system and automatically adapts the application accordingly. When your system theme changes, Benjrm will also update in real time to match the new setting. The selected theme is applied immediately and affects the entire application interface. Your preference is stored locally so that it is preserved across sessions on the same device and browser. Auto mode is the default value.
 
 ## Dashboard
+
+![Dashboard](./user-manual.assets/dashboard.png)
 
 The Dashboard is the main entry point for the quiz organizer. It acts as a central hub where you can create, manage, and play quizzes, as well as access general application settings. From here, you can navigate to all core features without needing to leave the page.
 
@@ -186,7 +186,7 @@ To select another question for editing, you can either create a new question or 
 
 ![Quiz Validation](./user-manual.assets/quiz_validation.png)
 
-Questions follow some validation rules. If a question is edited and does not fullfill the requirements, the quiz can't be saved and also the current question can't be left. The not matching fields get marked and also errors popup to tell you what is missing. You can either fix them, or just delete the problematic question. 
+Questions follow some validation rules. If a question is edited and does not fulfill the requirements, the quiz can't be saved and also the current question can't be left. The not matching fields get marked and also errors popup to tell you what is missing. You can either fix them, or just delete the problematic question. 
 
 ### Question type
 
@@ -274,7 +274,7 @@ After submitting an answer, players must wait until either all participants have
 
 ![Final Podium](./user-manual.assets/final_podium.png)
 
-Once all questions have been completed, the quiz ends with the final podium. This screen presents the final ranking of all participants based on the total number of points they have accumulated throughout the quiz. The top three positions are highlighted on the podium, celebrating the first, second, and third places. Players with the same points will share a position and may get the same highliting on the podium. All other remaining participants are shown in the final leaderboard below, together with their total score.
+Once all questions have been completed, the quiz ends with the final podium. This screen presents the final ranking of all participants based on the total number of points they have accumulated throughout the quiz. The top three positions are highlighted on the podium, celebrating the first, second, and third places. Players with the same points will share a position and may get the same highlighting on the podium. All other remaining participants are shown in the final leaderboard below, together with their total score.
 
 [^1]: https://en.wikipedia.org/wiki/Markdown
 [^2]: https://remarkjs.github.io/react-markdown/
