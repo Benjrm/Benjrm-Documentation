@@ -1,5 +1,8 @@
 # Benjrm-Documentation
 
+Also in this repository:
+- [User manual](user-manual.md)
+
 ## User centered design documentation
 
 ### Product Vision
