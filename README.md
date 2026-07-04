@@ -276,7 +276,7 @@ The team continued to face challenges carried over from Sprint 1. The branching 
 |   ↳ SERSOSE26G1-145 | Unittests Backend                          | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-62  | API endpoint                               | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-88  | UI Fragen löschen                          | Aufgabe        | In Bearbeitung    |
-| ↳ SERSOSE26G1-149   | Infoslide unterstützen                     | Benutzer-Story | Offen             |
+| ↳ SERSOSE26G1-149   | Infoslide unterstützen                     | Benutzer-Story | Erledigt          |
 | ↳ SERSOSE26G1-52    | Numerische Schätzfragen unterstützen       | Benutzer-Story | Offen             |
 | ↳ SERSOSE26G1-29    | Frage bearbeiten                           | Benutzer-Story | Offen             |
 |   ↳ SERSOSE26G1-162 | Integrationstests Backend                  | Aufgabe        | Erledigt          |
@@ -285,7 +285,7 @@ The team continued to face challenges carried over from Sprint 1. The branching 
 |   ↳ SERSOSE26G1-143 | Unittests Backend                          | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-204 | Markdown Parser                            | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-148 | API endpoint                               | Aufgabe        | Erledigt          |
-| ↳ SERSOSE26G1-51    | Multiple-Choice-Fragen unterstützen        | Benutzer-Story | Offen             |
+| ↳ SERSOSE26G1-51    | Multiple-Choice-Fragen unterstützen        | Benutzer-Story | Erledigt          |
 | ↳ SERSOSE26G1-27    | Fragen anlegen                             | Benutzer-Story | Offen             |
 |   ↳ SERSOSE26G1-158 | Integrationstests Backend                  | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-150 | Repository Layer inklusive Datenbankschema | Aufgabe        | Erledigt          |
@@ -293,8 +293,8 @@ The team continued to face challenges carried over from Sprint 1. The branching 
 |   ↳ SERSOSE26G1-146 | Unittests Backend                          | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-47  | API endpoint                               | Aufgabe        | Erledigt          |
 |   ↳ SERSOSE26G1-89  | UI Fragen Erstellen                        | Aufgabe        | Erledigt          |
-| ↳ SERSOSE26G1-50    | Single-Choice-Fragen unterstützen          | Benutzer-Story | Offen             |
-| ↳ SERSOSE26G1-53    | Reihenfolge fragen unterstützen            | Benutzer-Story | Offen             |
+| ↳ SERSOSE26G1-50    | Single-Choice-Fragen unterstützen          | Benutzer-Story | Erledigt          |
+| ↳ SERSOSE26G1-53    | Reihenfolge fragen unterstützen            | Benutzer-Story | Erledigt          |
 | SERSOSE26G1-96      | Management                                 | Epic           | Offen             |
 | ↳ SERSOSE26G1-202   | Sprint Retrospective - Sprint 2            | Aufgabe        | Offen             |
 | ↳ SERSOSE26G1-203   | Sprint Review - Sprint 2                   | Aufgabe        | Offen             |
