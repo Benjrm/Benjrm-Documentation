@@ -106,7 +106,7 @@ Infrequent meetings also had a social side effect: some team members felt like t
 
 #### Sprint 1 – Status as of 21.05.2026
 
-Sprint 1 was largely focused on setting up the foundations of our development environment — including GitHub workflows, CI/CD pipelines, and other developer tooling that, while not directly visible to the end user, are essential for sustainable and efficient development going forward. This groundwork took a significant portion of the sprint's capacity.
+Sprint 1 was largely focused on setting up the foundations of our development environment — including GitHub workflows, CI/CD pipelines, and other developer tooling that, while not directly visible to the end user, is essential for sustainable and efficient development going forward. This groundwork took a significant portion of the sprint's capacity.
 
 At the same time, the team was still settling in: estimating task effort and coordinating our workflows was a learning process, which meant that some items took longer than planned. We also identified areas for improvement in our branching strategy, which lacked clear conventions early on. Both of these aspects were addressed and refined as we moved into further Sprints.
 
