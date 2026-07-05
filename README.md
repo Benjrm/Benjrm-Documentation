@@ -392,7 +392,7 @@ In terms of deliverables, both sprint goals were met. The core "Quiz Spielen" fe
 
 #### Sprint 4 – Status as of 05.07.2026
 
-Sprint 4 was the closing sprint of the project. On the technical side, the reconnect logic for dropped WebSocket connections was completed, allowing players to resume an active session instead of losing their progress, and the translation between languages was finished. Alongside this, the team carried out general refactoring and bug fixing across the codebase.
+Sprint 4 was the closing sprint of the project. On the technical side, the reconnect logic for dropped WebSocket connections was completed, allowing players to resume an active session instead of losing their progress, and the translation between languages was finished. Music was also added to the lobby and during gameplay, giving the quiz experience a more polished, engaging feel. Alongside this, the team carried out general refactoring and bug fixing across the codebase.
 
 Beyond development work, the team shifted its focus towards wrapping up the project — finalizing the documentation and preparing the final presentation to close out the sprint and the project as a whole.
 
