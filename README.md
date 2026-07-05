@@ -43,6 +43,11 @@ This includes creating a mood board, user flows, mockups and prototypes.
 Figma serves as our central tool for collaboratively defining the user interface and overall user experience of the application.
 The complete design work can be accessed here: [Figma Design Link](https://www.figma.com/design/C9VVUgbENsonybgmeKInTY/User-Interface?node-id=0-1&m=dev)
 
+### User Testing
+To further improve the usability and user experience of our platform, we visited the [Landgraf-Ludwigs-Gymnasium](https://landgraf-ludwigs-gymnasium-giessen.de/) in Gießen and conducted user testing sessions with students and teachers
+and collected valuable feedback on the platform's design, functionality, and overall user experience. The insights gained from these sessions have been instrumental in refining our platform to better meet the needs of our target audience.
+Moreover, we demonstrated the platform during a presentation at the [Volunteer Fire Department in Nonnenroth](https://ff-nonnenroth.de/) and gathered additional face-to-face feedback from the audience.
+
 ### Agile Development with Scrum
 
 #### Definition of Ready (DoR)
