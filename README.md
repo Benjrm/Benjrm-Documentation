@@ -389,3 +389,66 @@ In terms of deliverables, both sprint goals were met. The core "Quiz Spielen" fe
 | ↳ SERSOSE26G1-223   | (Daily) Scrum - Sprint 3                    | Aufgabe        | Offen             |
 | SERSOSE26G1-173     | Übersetzungen                               | Benutzer-Story | In Bearbeitung    |
 | ↳ SERSOSE26G1-237   | i18n Übersetzungen                          | Aufgabe        | In Bearbeitung    |
+
+#### Sprint 4 – Status as of 05.07.2026
+
+Sprint 4 was the closing sprint of the project. On the technical side, the reconnect logic for dropped WebSocket connections was completed, allowing players to resume an active session instead of losing their progress, and the translation between languages was finished. Alongside this, the team carried out general refactoring and bug fixing across the codebase.
+
+Beyond development work, the team shifted its focus towards wrapping up the project — finalizing the documentation and preparing the final presentation to close out the sprint and the project as a whole.
+
+| Ticket              | Zusammenfassung                                                               | Typ            | Status 05.07.2026 |
+| ------------------- | ----------------------------------------------------------------------------- | -------------- | ----------------- |
+| SERSOSE26G1-132     | CI/CD                                                                         | Epic           | Offen             |
+| ↳ SERSOSE26G1-126   | Continous Delivery / Deployment                                               | Benutzer-Story | In Bearbeitung    |
+|   ↳ SERSOSE26G1-134 | Anwendung deployen                                                            | Aufgabe        | Offen             |
+|   ↳ SERSOSE26G1-135 | Container pushen                                                              | Aufgabe        | Erledigt          |
+|   ↳ SERSOSE26G1-133 | Container bauen                                                               | Aufgabe        | Erledigt          |
+| SERSOSE26G1-175     | Quiz Spielen                                                                  | Epic           | Offen             |
+| ↳ SERSOSE26G1-276   | Re-connect Logik                                                              | Benutzer-Story | Erledigt          |
+|   ↳ SERSOSE26G1-277 | Backend                                                                       | Aufgabe        | Erledigt          |
+|   ↳ SERSOSE26G1-278 | Frontend                                                                      | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-275   | Musik                                                                         | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-246   | Anzeigen welche Antwortmöglichkeiten ausgewählt wurden                        | Benutzer-Story | Erledigt          |
+|   ↳ SERSOSE26G1-247 | Api anpassungen                                                               | Aufgabe        | Erledigt          |
+|   ↳ SERSOSE26G1-249 | UI änderungen                                                                 | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-181   | Spieler Name generieren                                                       | Benutzer-Story | In Bearbeitung    |
+|   ↳ SERSOSE26G1-189 | API Endpoint                                                                  | Aufgabe        | In Bearbeitung    |
+|   ↳ SERSOSE26G1-193 | UI erstellen                                                                  | Aufgabe        | Zu verifizieren.  |
+| ↳ SERSOSE26G1-264   | QR Code für Quiz Lobby                                                        | Benutzer-Story | Erledigt          |
+|   ↳ SERSOSE26G1-270 | QR code im Frontend anzeigen                                                  | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-271   | Fragen überspringen bzw. auswählen                                            | Benutzer-Story | Offen             |
+|   ↳ SERSOSE26G1-273 | UI                                                                            | Aufgabe        | Offen             |
+|   ↳ SERSOSE26G1-272 | API-Endpoint                                                                  | Aufgabe        | Offen             |
+| SERSOSE26G1-21      | Quizverwaltung                                                                | Epic           | Offen             |
+| ↳ SERSOSE26G1-183   | Quiz importieren und exportieren                                              | Benutzer-Story | Offen             |
+|   ↳ SERSOSE26G1-231 | UI                                                                            | Aufgabe        | Offen             |
+|   ↳ SERSOSE26G1-232 | Api Endpunkt                                                                  | Aufgabe        | Offen             |
+| SERSOSE26G1-5       | Benutzerverwaltung                                                            | Epic           | Offen             |
+| ↳ SERSOSE26G1-40    | Konto bearbeiten                                                              | Benutzer-Story | Erledigt          |
+|   ↳ SERSOSE26G1-236 | Api Endpunkt                                                                  | Aufgabe        | Erledigt          |
+|   ↳ SERSOSE26G1-235 | UI                                                                            | Aufgabe        | Erledigt          |
+| SERSOSE26G1-173     | Übersetzungen                                                                 | Benutzer-Story | Erledigt          |
+| ↳ SERSOSE26G1-237   | i18n Übersetzungen                                                            | Aufgabe        | Erledigt          |
+| SERSOSE26G1-219     | Sprint Planning - Sprint 4                                                    | Aufgabe        | Offen             |
+| SERSOSE26G1-224     | YouTrack - Sprint 3                                                           | Aufgabe        | Offen             |
+| SERSOSE26G1-248     | Softwarequalität                                                              | Benutzer-Story | In Bearbeitung    |
+| ↳ SERSOSE26G1-279   | Waiting room aufteilen                                                        | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-255   | Dokumentation der Feedbackloops inkl. Version Control und Branching Strategie | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-254   | Dokumentation der CI/CD-Pipeline                                              | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-251   | Questions API typing Frontend                                                 | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-250   | Frontend Code feature-based organisieren                                      | Aufgabe        | Erledigt          |
+| SERSOSE26G1-257     | UCD                                                                           | Benutzer-Story | In Bearbeitung    |
+| ↳ SERSOSE26G1-259   | Benutzerdokumentation                                                         | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-258   | Nutzerfeedback und Resultate ableiten                                         | Aufgabe        | Erledigt          |
+| SERSOSE26G1-260     | Dokumentation                                                                 | Benutzer-Story | Erledigt          |
+| ↳ SERSOSE26G1-282   | Erstellung der Abschlusspräsentation                                          | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-262   | Teamorganisation und Kultur                                                   | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-261   | Projektreflektion und Retrospektive                                           | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-269   | AsyncAPI Dokumentation  auf GitHub Pages deployen                             | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-256   | Technologieentscheidungen dokumentieren                                       | Aufgabe        | Erledigt          |
+| SERSOSE26G1-263     | Codedokumentation                                                             | Benutzer-Story | Erledigt          |
+| ↳ SERSOSE26G1-253   | Codedokumentation Backend                                                     | Aufgabe        | Erledigt          |
+| ↳ SERSOSE26G1-252   | Codedokumentation Frontend                                                    | Aufgabe        | Erledigt          |
+| SERSOSE26G1-267     | (Daily) Scrum - Sprint 4                                                      | Aufgabe        | Offen             |
+| SERSOSE26G1-268     | Sprint Review - Sprint 4                                                      | Aufgabe        | Offen             |
+| SERSOSE26G1-90      | UI anpassen                                                                   | Aufgabe        | Erledigt          |
